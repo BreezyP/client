@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import GoogleAuth from "./GoogleAuth";
 import { AppBar, Toolbar, Typography, Button, IconButton }from '@material-ui/core';
 import makeStyles from "@material-ui/core/styles/makeStyles";
 
@@ -25,6 +26,7 @@ const Header = () => {
                         </Link>
                     </Typography>
                     <Button  color="inherit">Login</Button>
+                    <GoogleAuth/>
                 </Toolbar>
             </AppBar>
         </div>);
