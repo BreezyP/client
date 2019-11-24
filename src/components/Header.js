@@ -25,7 +25,6 @@ const Header = () => {
                             Streamy
                         </Link>
                     </Typography>
-                    <Button  color="inherit">Login</Button>
                     <GoogleAuth/>
                 </Toolbar>
             </AppBar>
